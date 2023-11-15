@@ -1,9 +1,12 @@
 package main
 
-import Maze "maze/src/Maze"
+import Render "maze/src/Render"
 
 func main() {
-	rows, cols := 25, 25
-	maze := Maze.GenerateMaze(rows, cols)
-	Maze.PrintMaze(maze)
+
+	//rows, cols := 10, 10
+	//maze := Maze.GenerateMaze(rows, cols)
+	//Maze.PrintMaze(maze)
+
+	Render.MazeApp()
 }
